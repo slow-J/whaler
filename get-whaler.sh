@@ -5,4 +5,5 @@ apt-get install -y docker-compose
 git clone https://github.com/slow-J/whaler.git
 systemctl enable docker
 apt-get update && apt-get upgrade -y
-reboot now
+# reboot after cloudformation script finished
+# reboot now
