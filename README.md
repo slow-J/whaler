@@ -63,7 +63,7 @@ export LOGZIO_ENV=whaler
 reset and re-deploy the solution:
 
 ```
-./reset-redeploy -d
+./reset-reploy.sh -d
 ```
 
 Logs should start shipping within a few minutes. You can test the setup by accessing the Daemon remotely from another machine with docker installed:
