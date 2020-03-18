@@ -23,7 +23,7 @@ services:
     volumes:
       - /var/tmp/whaler/reports:/usr/share/nginx/html/data
     ports:
-      - "80:80"
+      - "81:81"
   capture:
     container_name: whaler_capture
     build: ./capture
