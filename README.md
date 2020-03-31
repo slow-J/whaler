@@ -3,6 +3,9 @@
 Whaler is a Docker Daemon honeypot / sandbox. It exposes an insecure Docker Daemon API with the intention of attracting and capturing attempts to run malicious containers.
  
 Whaler runs entirely in Docker and at the heart of the solution is a Docker in Docker (DinD) container which serves as the honeypot.
+  
+## Changes from original whaler
+Includes getwhaleraml.sh which will download and run whaler on amazon linux ami-70edb016
 
 ## Notes
 
