@@ -7,6 +7,11 @@ Whaler runs entirely in Docker and at the heart of the solution is a Docker in D
 ## Changes from original whaler
 Includes getwhaleraml.sh which will download + setup whaler on amazon linux ami-70edb016
 
+NB.
+When exposing the Docker Daemon remotely, care should be taken to authenticate the connection – ideally with mutual TLS / certificates.
+
+As this workaround doesn't use TLS, don't run this in production.
+
 ## Notes
 
 Whaler should be run on an isolated server (e.g. Cloud) and assume that a sophisticated hacker will be able to trivially bypass the Docker container to obtain root on the server.
